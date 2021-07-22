@@ -77,7 +77,7 @@ public class QuizActivity extends AppCompatActivity {
 //        chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
 //            @Override
 //            public void onChronometerTick(Chronometer chronometer) {
-//                if(cut1<= 0){
+//                if(chronometer.getbase()<= 0){
 //                    chronometer.stop();
 //                    Intent intent=new Intent(QuizActivity.this,ResultActivity.class);
 //                    intent.putExtra("Score",mscore);
@@ -87,6 +87,7 @@ public class QuizActivity extends AppCompatActivity {
 //
 //            }
 //        });
+
 
         question=findViewById(R.id.Question);
         score=findViewById(R.id.Score);
